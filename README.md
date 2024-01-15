@@ -1,1 +1,17 @@
-# ormi-4th-front-end-project
+# 오르미 4기 Front-End 개인 프로젝트
+
+---
+## 🚀 기능 구현 목록
+
+---
+### Layout
+- [ ] 최상단 nav bar
+- [ ] 영역 나누기 (main, article, footer)
+- [ ] 격자 형식으로 사진 배치
+- [ ] footer 영역은 고정 시켜 스크롤시에도 보이게
+
+### 기능
+- [ ] 다음 지도 api
+- [ ] picsum api를 활용하여 사진을 로딩하고 무한 스크롤 생성하기
+- [ ] 모달 창 띄우기
+- [ ] hover 버튼으로 페이지 최상단으로 이동하기
