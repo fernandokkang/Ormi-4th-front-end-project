@@ -18,11 +18,11 @@
 - [ ] span `font 16px Pretendard` `color #000000`
 - [ ] Download 버튼 `font 16px bold Pretendard` `color #FFFFFF` `background #D97652` `W:140 H:50 Rad:40`
 - [ ] `background #F2E9D8`
-- [ ] 사진 크기 415x766
+- [ ] 사진 크기 `W:415 H:890`
 
 
 - article
-- [ ] 사진 크기 660x390
+- [ ] 사진 크기 `W:660 H:390`
 - [ ] 글자 좌측 정렬
 - [ ] h3 `font 36px bold Pretendard` `color #000000`
 - [ ] span `font 16px Pretendard` `color #000000`
@@ -30,8 +30,8 @@
 
 - content
 - [ ] 격자 형식으로 사진 배치
-- [ ] 사진 크기 378x378
-- [ ] 사진 간 거리 72px
+- [ ] 사진 크기 `W:378 H:378`
+- [ ] 사진 간 거리 `72px`
 - [ ] h2 `font 48px bold Pretendard` `color #D97652`
 - [ ] p `font 24px bold Prentendard` `color #000000`
 - [ ] span `font 16px Pretendard` `color #000000`
@@ -42,7 +42,7 @@
 - map area
 - [ ] h3 `font 36px bold Pretendard` `color #000000`
 - [ ] span `font 16px medium Pretendard` `color #000000`
-- [ ] 지도 크기 1278x570
+- [ ] 지도 크기 `W:1278 H:570`
 
 
 - subscribe area
