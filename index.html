@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>오르미 4기 프론트엔드 개인 프로젝트</title>
+    <link rel="stylesheet" href="font/pretendard.css" type="text/css">
+    <link rel="stylesheet" href="css/common.css" type="text/css">
+    <link rel="stylesheet" href="css/navbar.css" type="text/css">
 </head>
 <body>
-    <nav>
-        <img src="image/navbar-logo.png">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Support</a></li>
-            <li><button>Download</button></li>
-        </ul>
+    <nav class="navbar">
+        <div class="nav-div">
+            <img src="image/navbar-logo.png">
+            <div class="nav-menu-div">
+                <ul class="nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+                <button class="nav-download-btn">Download</button>
+            </div>
+        </div>
     </nav>
     <main>
         <div>
@@ -67,7 +74,7 @@
     </div>
     <div class="map-area">
         <h3>
-            Where you`ll be
+            Where you'll be
         </h3>
         <span>
             지도에 찍힌 주소 출력
