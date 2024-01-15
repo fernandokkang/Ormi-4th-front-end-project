@@ -6,6 +6,7 @@
 ---
 ### Layout
 - nav bar
+- [ ] navbar 크기 `W:1920 H:102`
 - [ ] 로고 이미지 `W:130 H:40`
 - [ ] Home, About, Support 버튼 `font 16px Pretendard` `color #000000`
 - [ ] Download 버튼 `font 16px bold Pretendard` `color #FFFFFF` `background #D97652` `W:140 H:50 Rad:40`
