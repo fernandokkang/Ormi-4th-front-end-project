@@ -30,7 +30,7 @@
 
 - content
 - [ ] 격자 형식으로 사진 배치
-- [ ] 사진 크기 `W:378 H:378`
+- [ ] 사진 크기 `W:378 H:378 Rad:30`
 - [ ] 사진 간 거리 `72px`
 - [ ] h2 `font 48px bold Pretendard` `color #D97652`
 - [ ] p `font 24px bold Prentendard` `color #000000`
