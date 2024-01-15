@@ -16,6 +16,7 @@ article{
 
 .article-img{
     border-radius: 30px;
+    box-shadow: 10px 10px 20px grey;
 }
 .article-text-area > h3{
     margin-top: 0px;
