@@ -15,13 +15,13 @@
 
 
 - main
-- [ ] 글자 좌측 정렬
-- [ ] h2 `font 48px bold Pretendard` `color #000000`
-- [ ] span `font 16px Pretendard` `color #000000`
-- [ ] Download 버튼 `font 16px bold Pretendard` `color #FFFFFF` 
+- [x] 글자 좌측 정렬
+- [x] h2 `font 48px bold Pretendard` `color #000000`
+- [x] span `font 16px Pretendard` `color #000000`
+- [x] Download 버튼 `font 16px bold Pretendard` `color #FFFFFF` 
       `background #D97652` `W:140 H:50 Rad:40`
-- [ ] `background #F2E9D8`
-- [ ] 사진 크기 `W:415 H:890`
+- [x] `background #F2E9D8`
+- [x] 사진 크기 `W:415 H:766`
 
 
 - article

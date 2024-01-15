@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 210px;
+
+    background-color: #F2E9D8;
+}
+.main-text-area > h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.main-text-area > span{
+    font-size: 16px;
+}
+.main-download-btn {
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+
+    margin-top: 40px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    color: #FFFFFF;
+    background-color: #D97652;
+}
