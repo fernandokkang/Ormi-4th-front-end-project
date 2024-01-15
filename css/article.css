@@ -1,0 +1,32 @@
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 110px;
+    padding-bottom: 130px;
+
+    gap: 150px;
+
+    background-color: #FFFFFF;
+}
+.article-text-area {
+    background-color: #FFFFFF;
+}
+
+.article-img{
+    border-radius: 30px;
+}
+.article-text-area > h3{
+    margin-top: 0px;
+
+    font-size: 36px;
+    font-weight: bold;
+
+    background-color: #FFFFFF;
+}
+.article-text-area > span{
+    font-size: 16px;
+
+    background-color: #FFFFFF;
+}

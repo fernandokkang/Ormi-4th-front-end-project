@@ -25,10 +25,10 @@
 
 
 - article
-- [ ] 사진 크기 `W:660 H:390`
-- [ ] 글자 좌측 정렬
-- [ ] h3 `font 36px bold Pretendard` `color #000000`
-- [ ] span `font 16px Pretendard` `color #000000`
+- [x] 사진 크기 `W:660 H:390 Rad:30`
+- [x] 글자 좌측 정렬
+- [x] h3 `font 36px bold Pretendard` `color #000000`
+- [x] span `font 16px Pretendard` `color #000000`
 
 
 - content
