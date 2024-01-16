@@ -32,14 +32,16 @@
 
 
 - content
-- [ ] 격자 형식으로 사진 배치
-- [ ] 사진 크기 `W:378 H:378 Rad:30`
-- [ ] 사진 간 거리 `72px`
-- [ ] h2 `font 48px bold Pretendard` `color #D97652`
-- [ ] p `font 24px bold Prentendard` `color #000000`
-- [ ] span `font 16px Pretendard` `color #000000`
-- [ ] span > strong `color #D97652`
-- [ ] Show more 버튼 `font 16px bold Pretendard` `color #FFFFFF` `background #D97652` `W:143 H:50 Rad:40`
+- [x] 글자 가운데 정렬
+- [x] 격자 형식으로 사진 배치
+- [x] 사진 크기 `W:378 H:378 Rad:30`
+- [x] 사진 간 거리 `72px`
+- [x] h2 `font 48px bold Pretendard` `color #D97652`
+- [x] p `font 24px bold Prentendard` `color #000000`
+- [x] span `font 16px Pretendard` `color #000000`
+- [x] span > strong `color #D97652`
+- [x] Show more 버튼 `font 16px bold Pretendard` `color #FFFFFF`
+      `background #D97652` `W:143 H:50 Rad:40`
 
 
 - map area
