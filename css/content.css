@@ -14,17 +14,18 @@
 .content > h2 {
     color: #D97652;
 
-    font-size: 48px;
-    font-weight: bold;
+    font: 48px Pretendard-Bold;
 }
 .content > span {
     padding-bottom: 50px;
+
+    font: 16px Pretendard-Regular;
 }
 .content > span > strong {
     color: #D97652;
     background-color: #FFFFFF;
 
-    font-weight: bold;
+    font-family: Pretendard-Bold;
 }
 .content-img-div {
     display: flex;
@@ -40,8 +41,7 @@
 .content > p {
     padding-top: 50px;
 
-    font-size: 24px;
-    font-weight: bold;
+    font: 24px Pretendard-Bold;
 }
 .content > button {
     width: 143px;
@@ -54,5 +54,5 @@
     color: #FFFFFF;
     background-color: #D97652;
 
-    font-size: 16px;
+    font: 16px Pretendard-Regular;
 }

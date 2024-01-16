@@ -21,13 +21,12 @@ article{
 .article-text-area > h3{
     margin-top: 0px;
 
-    font-size: 36px;
-    font-weight: bold;
+    font: 36px Pretendard-Bold;
 
     background-color: #FFFFFF;
 }
 .article-text-area > span{
-    font-size: 16px;
+    font: 16px Pretendard-Regular;
 
     background-color: #FFFFFF;
 }
