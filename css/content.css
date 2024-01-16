@@ -19,6 +19,8 @@
 .content > span {
     padding-bottom: 50px;
 
+    text-align: center;
+
     font: 16px Pretendard-Regular;
 }
 .content > span > strong {
