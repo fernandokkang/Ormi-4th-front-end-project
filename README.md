@@ -64,17 +64,16 @@
 
 
 - modal
-- [ ] area `W:600 H:400 Rad:30`
-- [ ] background img
-- [ ] h3 `font 36px bold Pretendard` `color #D97652`
-- [ ] span `font 14px Pretendard` `color #000000`
-- [ ] button `W:183 H:50 Rad:40`
-- [ ] button `background #D97652`
-- [ ] button `font 16px Bold Pretendard` `color #FFFFFF`
+- [x] area `W:600 H:400 Rad:30`
+- [x] background img
+- [x] h3 `font 36px bold Pretendard` `color #D97652`
+- [x] span `font 14px Pretendard` `color #000000`
+- [x] button `W:183 H:50 Rad:40`
+- [x] button `background #D97652`
+- [x] button `font 16px Bold Pretendard` `color #FFFFFF`
 
 
 - footer
-- [x] footer 영역은 고정 시켜 스크롤시에도 보이게
 - [x] 로고 이미지 `W:226 H:70`
 - [x] 아이콘 `W:42 H:42`
 - [x] 아이콘 그룹 `gap : 20`
