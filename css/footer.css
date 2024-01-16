@@ -1,0 +1,30 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+    background-color: #FFFFFF;
+}
+.footer-area{
+    display: flex;
+    gap: 840px;
+
+    background-color: #FFFFFF;
+}
+.footer-area > img{
+    background-color: #FFFFFF;
+}
+.log-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    background-color: #FFFFFF;
+}
+.log-group > img {
+    background-color: #FFFFFF;
+}

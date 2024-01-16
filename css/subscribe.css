@@ -4,8 +4,6 @@
     align-items: center;
     background-color: #FFFFFF;
 }
-.subscribe-area > * {
-}
 .subscribe {
     display: flex;
     justify-content: center;

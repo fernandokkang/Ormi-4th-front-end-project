@@ -2,7 +2,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 210px;
+    gap: 190px;
 
     background-color: #F2E9D8;
 }

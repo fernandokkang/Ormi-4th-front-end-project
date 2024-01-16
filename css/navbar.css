@@ -6,10 +6,9 @@
 }
 .nav-div {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 
-    gap: 600px;
+    gap: 700px;
 }
 .nav-menu-div {
     display: flex;
