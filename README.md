@@ -45,22 +45,22 @@
 
 
 - map area
-- [ ] h3 `font 36px bold Pretendard` `color #000000`
-- [ ] span `font 16px medium Pretendard` `color #000000`
+- [x] h3 `font 36px bold Pretendard` `color #000000`
+- [x] span `font 16px medium Pretendard` `color #000000`
 - [ ] 지도 크기 `W:1278 H:570`
 
 
 - subscribe area
-- [ ] area `W:1280 H:20 Rad:30`
-- [ ] `background #263140`
-- [ ] h3 `font 36px bold Pretendard` `color #FFFFFF`
-- [ ] span `font 14px Pretendard` `color #FFFFFF`
-- [ ] input div `W:530 H:60 Rad:60`
-- [ ] input div > span `font 16px Pretendard` `color #767676`
-- [ ] input div > img `W:24 H:24`
-- [ ] Subscribe button `W:135 H:50 Rad:40`
-- [ ] Subscribe button `font 16px Bold Pretendard` `color #FFFFFF`
-- [ ] Subscribe button `background color #D97652`
+- [x] area `W:1280 H:200 Rad:30`
+- [x] `background #263140`
+- [x] h3 `font 36px bold Pretendard` `color #FFFFFF`
+- [x] span `font 14px Pretendard` `color #FFFFFF`
+- [x] input div `W:530 H:60 Rad:60`
+- [x] input div > span `font 16px Pretendard` `color #767676`
+- [x] input div > img `W:24 H:24`
+- [x] Subscribe button `W:135 H:50 Rad:40`
+- [x] Subscribe button `font 16px Bold Pretendard` `color #FFFFFF`
+- [x] Subscribe button `background color #D97652`
 
 
 - modal

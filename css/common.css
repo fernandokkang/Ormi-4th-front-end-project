@@ -2,6 +2,10 @@
     background-color: #F2E9D8;
 }
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     margin: 0;
 }
 a {

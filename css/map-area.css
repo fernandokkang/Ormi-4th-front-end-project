@@ -1,0 +1,15 @@
+.map-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.map-area > * {
+    background-color: #FFFFFF;
+}
+.map-area > h3 {
+    font: 36px Pretendard-Bold;
+}
+.map-area > span {
+    font: 16px Pretendard-Medium;
+}

@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
 
-    width: 1280px;
+    gap: 600px;
 }
 .nav-menu-div {
     display: flex;
