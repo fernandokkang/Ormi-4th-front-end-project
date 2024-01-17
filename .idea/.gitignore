@@ -7,5 +7,4 @@
 /dataSources/
 /dataSources.local.xml
 #api key
-/js/
-/apiKey.js
+js/apiKeyTest.js
