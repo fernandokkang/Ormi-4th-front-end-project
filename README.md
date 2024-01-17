@@ -47,7 +47,7 @@
 - map area
 - [x] h3 `font 36px bold Pretendard` `color #000000`
 - [x] span `font 16px medium Pretendard` `color #000000`
-- [ ] 지도 크기 `W:1278 H:570`
+- [x] 지도 크기 `W:1278 H:570`
 
 
 - subscribe area
