@@ -13,3 +13,8 @@
 .map-area > span {
     font: 16px Pretendard-Medium;
 }
+
+#map {
+    width: 1278px;
+    height: 570px;
+}
