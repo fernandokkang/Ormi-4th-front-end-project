@@ -1,10 +1,14 @@
 let geocoder = new kakao.maps.services.Geocoder();
-let coord = new kakao.maps.LatLng(33.450701, 126.570667);
+
+let latitude = 33.450701;
+let longitude = 126.570667;
+
+const coord = new kakao.maps.LatLng(latitude, longitude);
 const addr = document.querySelector('#address');
 const callback = function (result, status) {
     if (status === kakao.maps.services.Status.OK) {
-        console.log(result[0].address.address_name);
-        addr.innerHTML = "<span>"+result[0].address.address_name+"</span>"
+        console.log(result);
+        addr.innerHTML = "<span>"+result[0].road_address.address_name+"</span>"
     }
 }
 
