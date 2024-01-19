@@ -1,10 +1,19 @@
-const showMoreBtn = document.querySelector('.Show-more-btn');
+const showMoreBtn = document.querySelector('.content-btn');
 const imgDiv = document.querySelector(".content-img-div");
 let pageToFetch = 1;
+let cnt = 0;
 let timer;
 
 showMoreBtn.addEventListener('click', function (){
-    fetchImages(pageToFetch++);
+    if(cnt%2 === 0) {
+        fetchImages(pageToFetch++);
+        window.addEventListener('scroll', infinityScroll);
+        showMoreBtn.innerText = 'Stop';
+    }else {
+        window.removeEventListener('scroll', infinityScroll);
+        showMoreBtn.innerText = 'Show more';
+    }
+    cnt++;
 });
 
 async function fetchImages(pageNum) {
@@ -33,16 +42,13 @@ function makeImageList(datas) {
     }
 }
 
-window.addEventListener('scroll', () => {
-
-    console.log(window.innerHeight+"/"+document.documentElement.scrollTop+"/"+document.documentElement.offsetHeight);
-
+function infinityScroll() {
     if (window.innerHeight + document.documentElement.scrollTop + 750 >= document.documentElement.offsetHeight) {
         if (!timer) {
             timer = setTimeout(() => {
                 timer = null;
                 fetchImages(pageToFetch++);
-            }, 1000);
+            }, 500);
         }
     }
-});
+}
