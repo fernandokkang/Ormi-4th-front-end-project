@@ -27,12 +27,12 @@
 
     font-family: Pretendard-Bold;
 }
-.content-img-div {
+.content-img-div-row {
     display: flex;
     gap: 72px;
     padding: 36px;
 }
-.content-img-div > img {
+.content-img-div-row > img {
     width: 378px;
     height: 378px;
     border-radius: 30px;
