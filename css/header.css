@@ -1,4 +1,4 @@
-main{
+header{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,13 +6,13 @@ main{
 
     background-color: #F2E9D8;
 }
-.main-text-area > h2{
+header > .text-area > h2{
     font: 48px Pretendard-Bold;
 }
-.main-text-area > span{
+header > .text-area > span{
     font: 16px Pretendard-Regular;
 }
-.main-download-btn {
+.download-btn {
     width: 140px;
     height: 50px;
     border: none;
