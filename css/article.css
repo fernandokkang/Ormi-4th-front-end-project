@@ -1,4 +1,4 @@
-article{
+main{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,22 +10,22 @@ article{
 
     background-color: #FFFFFF;
 }
-.article-text-area {
+main > .text-area {
     background-color: #FFFFFF;
 }
 
-.article-img{
+.main-img{
     border-radius: 30px;
     box-shadow: 10px 10px 20px grey;
 }
-.article-text-area > h3{
+main > .text-area > h3{
     margin-top: 0px;
 
     font: 36px Pretendard-Bold;
 
     background-color: #FFFFFF;
 }
-.article-text-area > span{
+main > .text-area > span{
     font: 16px Pretendard-Regular;
 
     background-color: #FFFFFF;
