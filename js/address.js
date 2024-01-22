@@ -9,7 +9,7 @@ const callback = function (result, status) {
         let detailAddr = !!result[0].road_address ?
             result[0].road_address.address_name : result[0].address.address_name;
 
-        addr.innerHTML = "<span>"+detailAddr+"</span>"
+        addr.innerText = detailAddr
     }
 }
 geocoder.coord2Address(coord.getLng(), coord.getLat(), callback);

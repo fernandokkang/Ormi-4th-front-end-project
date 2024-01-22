@@ -1,8 +1,6 @@
 const showMoreBtn = document.querySelector('.content-btn');
 const imgDiv = document.querySelector(".content-img-div");
-let pageToFetch = 1;
-let INFINITY_SCROLL_ON = true;
-let INFINITY_SCROLL_OFF = false;
+
 let flag = INFINITY_SCROLL_OFF;
 let timer;
 
@@ -23,7 +21,7 @@ showMoreBtn.addEventListener('click', function (){
 
 async function fetchImages(pageNum) {
     try {
-        const response = await fetch('https://picsum.photos/v2/list?page=' + pageNum + '&limit=12');
+        const response = await fetch('https://picsum.photos/v2/list?page=' + pageNum + '&limit='+LOAD_IMAGE_LIMIT);
         if (!response.ok) {
             throw new Error('네트워크 응답에 문제가 있습니다.');
         }
@@ -48,12 +46,13 @@ function makeImageList(datas) {
 }
 
 function infinityScroll() {
-    if (window.innerHeight + document.documentElement.scrollTop + 750 >= document.documentElement.offsetHeight) {
+
+    if (window.innerHeight + document.documentElement.scrollTop + OFFSET >= document.documentElement.offsetHeight) {
         if (!timer) {
             timer = setTimeout(() => {
                 timer = null;
                 fetchImages(pageToFetch++);
-            }, 500);
+            }, DELAY);
         }
     }
 }
