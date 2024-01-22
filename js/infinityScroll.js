@@ -1,19 +1,24 @@
 const showMoreBtn = document.querySelector('.content-btn');
 const imgDiv = document.querySelector(".content-img-div");
 let pageToFetch = 1;
-let cnt = 0;
+let INFINITY_SCROLL_ON = true;
+let INFINITY_SCROLL_OFF = false;
+let flag = INFINITY_SCROLL_OFF;
 let timer;
 
 showMoreBtn.addEventListener('click', function (){
-    if(cnt%2 === 0) {
+    if(!flag) {
         fetchImages(pageToFetch++);
         window.addEventListener('scroll', infinityScroll);
+        flag = INFINITY_SCROLL_ON;
+
         showMoreBtn.innerText = 'Stop';
     }else {
         window.removeEventListener('scroll', infinityScroll);
+        flag = INFINITY_SCROLL_OFF;
+
         showMoreBtn.innerText = 'Show more';
     }
-    cnt++;
 });
 
 async function fetchImages(pageNum) {
