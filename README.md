@@ -1,6 +1,5 @@
 # 오르미 4기 Front-End 개인 프로젝트
 
----
 ## 📋 프로젝트 개요
 
 Figma 디자인 파일을 받아 디자인대로 사이트를 구현하고 필요한 기능을 추가해보자
@@ -110,8 +109,6 @@ https://fernandokkang.github.io/Ormi-4th-front-end-project/
 - [x] 아이콘 그룹 `gap : 20`
 - [x] `background #FFFFFF`
 
-
----
 ### 기능
 - [x] 상단,하단 로고 이미지 클릭하면 index.html 페이지로 이동
 - [x] navbar Home 버튼 클릭하면 index.html 페이지로 이동
