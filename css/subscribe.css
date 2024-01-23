@@ -1,0 +1,100 @@
+.subscribe-area {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.subscribe {
+    position: absolute;
+    transform: translate(0px, -170px);
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px 40px 50px 40px;
+    border-radius: 30px;
+
+    gap: 200px;
+
+    background-color: #263140;
+}
+.subscribe-text-area {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    background-color: #263140;
+}
+.subscribe-text-area > h3 {
+    margin: 0;
+
+    font: 36px Pretendard-Bold;
+
+    color: #FFFFFF;
+    background-color: #263140;
+}
+.subscribe-text-area > span {
+    font: 14px Pretendard-Regular;
+
+    color: #FFFFFF;
+    background-color: #263140;
+}
+.subscribe-input-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 530px;
+    height: 60px;
+    border-radius: 40px;
+
+    background-color: #FFFFFF;
+}
+.subscribe-image{
+    background-color: #FFFFFF;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.subscribe-input{
+    width: 300px;
+    height: 40px;
+    border: none;
+
+    font: 16px Pretendard-Regular;
+
+    color: #767676;
+    background-color: #FFFFFF;
+}
+.subscribe-input-div > button{
+    width: 135px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    margin-left: 40px;
+
+    font: 16px Pretendard-Bold;
+
+    color: #FFFFFF;
+    background-color: #D97652;
+}
+.bottom-img-div{
+    position: relative;
+
+    max-height: 340px;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+}
+.hoverBtn{
+    position: absolute;
+    transform: translate(1850px, 135px);
+
+    border: none;
+    background-color: transparent;
+}

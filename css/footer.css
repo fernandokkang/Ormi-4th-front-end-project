@@ -1,0 +1,39 @@
+footer{
+    position: relative;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+    background-color: #FFFFFF;
+}
+.footer-area{
+    width: 1278px;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    background-color: #FFFFFF;
+}
+.footer-area > img{
+    background-color: #FFFFFF;
+}
+.icon-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    background-color: #FFFFFF;
+}
+.icon-group > img {
+    background-color: #FFFFFF;
+}

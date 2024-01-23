@@ -1,0 +1,37 @@
+nav {
+    display: flex;
+    justify-content: center;
+
+    height: 102px;
+    background-color: #F2E9D8;
+}
+.nav-div {
+    display: flex;
+    align-items: center;
+
+    gap: 700px;
+}
+.nav-menu-div {
+    display: flex;
+    align-items: center;
+
+    gap: 50px;
+}
+.nav-menu {
+    display: flex;
+    list-style: none;
+    font: 16px Pretendard-Regular;
+}
+.nav-menu li{
+    padding: 15px;
+}
+.nav-download-btn{
+    width: 140px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    font: 16px Pretendard-Bold;
+
+    color: #FFFFFF;
+    background-color: #D97652;
+}

@@ -1,0 +1,25 @@
+.map-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 180px;
+
+    background-color: #FFFFFF;
+}
+.map-area > * {
+    background-color: #FFFFFF;
+}
+.map-area-content{
+    border-top: 1px solid #C4C4C4;
+}
+.map-area-content > h3 {
+    font: 36px Pretendard-Bold;
+}
+.map-area-content > span {
+    font: 16px Pretendard-Medium;
+}
+#map {
+    width: 1278px;
+    height: 570px;
+}

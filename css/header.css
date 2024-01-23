@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+
+    background-color: #F2E9D8;
+}
+header > .text-area > h2{
+    font: 48px Pretendard-Bold;
+}
+header > .text-area > span{
+    font: 16px Pretendard-Regular;
+}
+.download-btn {
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+
+    margin-top: 40px;
+
+    font: 16px Pretendard-Bold;
+
+    color: #FFFFFF;
+    background-color: #D97652;
+}
