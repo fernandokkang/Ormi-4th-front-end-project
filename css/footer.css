@@ -13,8 +13,13 @@ footer{
     background-color: #FFFFFF;
 }
 .footer-area{
+    width: 1278px;
+
     display: flex;
-    gap: 840px;
+    justify-content: space-between;
+
+    padding-left: 20px;
+    padding-right: 20px;
 
     background-color: #FFFFFF;
 }
