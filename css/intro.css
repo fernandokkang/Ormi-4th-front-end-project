@@ -1,0 +1,22 @@
+.intro{
+    margin-bottom: 120px;
+}
+.intro figure{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 0px;
+    gap: 180px;
+}
+.intro-img{
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px 0px grey;
+}
+.intro h3{
+    margin-top: 0px;
+
+    font: 36px Pretendard-Bold;
+}
+.intro span{
+    font: 16px Pretendard-Regular;
+}
